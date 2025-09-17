@@ -1,12 +1,35 @@
-# React + Vite
+# Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, minimalist Kanban board built with React and Vite. Features a modern dark bluish theme for a focused, elegant workflow.
 
-Currently, two official plugins are available:
+## Features
+- Create, move, and delete tasks across columns
+- Drag-and-drop task cards
+- Persistent state using local storage
+- Responsive, minimalist dark UI with bluish accents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+![Kanban Board Screenshot](public/vite.svg) <!-- Replace with actual screenshot if available -->
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+```bash
+npm install
+```
+
+### Running Locally
+```bash
+npm run dev
+```
+
+## Technologies Used
+- React
+- Vite
+- CSS Modules
+
+## Customization
+You can easily tweak the theme by editing `src/index.css` and `src/App.css`.
+
+## License
+MIT
