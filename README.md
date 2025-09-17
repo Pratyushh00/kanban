@@ -1,6 +1,6 @@
 # Kanban Board
 
-A sleek, minimalist Kanban board built with React and Vite. Features a modern dark bluish theme for a focused, elegant workflow.
+A sleek, minimalist Kanban board built with React and Vite.
 
 ## Features
 - Create, move, and delete tasks across columns
@@ -9,7 +9,7 @@ A sleek, minimalist Kanban board built with React and Vite. Features a modern da
 - Responsive, minimalist dark UI with bluish accents
 
 ## Screenshots
-![Kanban Board Screenshot](public/vite.svg) <!-- Replace with actual screenshot if available -->
+<img width="1354" height="665" alt="image" src="https://github.com/user-attachments/assets/f99eb484-93e5-4298-9f92-00fce8bb4f9b" />
 
 ## Getting Started
 
