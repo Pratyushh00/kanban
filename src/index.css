@@ -1,0 +1,69 @@
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #101624;
+  color: #e3eafc;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 24px;
+  max-width: 900px;
+  margin: auto;
+  background: #18223a;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(16, 22, 36, 0.6);
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 10px;
+  background: #232e4a;
+  color: #e3eafc;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.task-form input::placeholder {
+  color: #7a8bbd;
+}
+
+.board {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.column {
+  background: #16203a;
+  flex: 1;
+  padding: 16px;
+  border-radius: 12px;
+  min-height: 300px;
+  box-shadow: 0 2px 8px rgba(16, 22, 36, 0.3);
+  border: 1px solid #23305a;
+}
+
+.task-card {
+  background: #23305a;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: grab;
+  box-shadow: 0 2px 8px rgba(16, 22, 36, 0.2);
+  color: #e3eafc;
+  border: 1px solid #31457a;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+.task-card:hover {
+  box-shadow: 0 4px 16px rgba(58, 104, 255, 0.3);
+  border: 1.5px solid #3a68ff;
+}
